@@ -30,7 +30,7 @@
         </button>
         <div class="navbar-logo">
 		
-          <a href="index.html"><img data-0="width:155px;" data-andown="fadeIn" data-animation="animation" data-300=" width:120px;" src="img/logo.png" alt=""></a>
+          <a href="index.php"><img data-0="width:155px;" data-andown="fadeIn" data-animation="animation" data-300=" width:120px;" src="img/logo.png" alt=""></a>
 		 
         </div>
       </div>
