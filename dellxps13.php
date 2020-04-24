@@ -6,6 +6,8 @@
   <meta charset="utf-8">
   <title>TeckCheck</title>
   <meta name="description" content="">
+
+  <link rel="stylesheet" href="css/boostrap 4.11.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="js/rs-plugin/css/settings.css" media="screen">
   <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen">
@@ -16,9 +18,10 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="skin/default.css">
 
-
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonym
 <body>
   <section id="header" class="appear"></section>
   <div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(5, 42, 62, 1);">
@@ -62,57 +65,138 @@
 <br>
    </h3>
    <div class="row">
-      <div class="col-md-4">
-         <div class="card">
-            <img class="card-img-top" src="img/digital camera.jpg" alt="Card image cap">
+     <div class="col-md-6">
+         <div class="card mb-9 border-dark">
+            <img class="card-img-top" src="img/productimages/dellxps13.jpg" alt="Card image cap">
             <div class="card-body">
-			<br>
-			<br>
-               <h5 class="card-title border-bottom pb-3">Cameras</a></h5>
-               <p class="card-text">View a wide range of digital cameras and compare them to see what you like most.</p>
-			   <br>
-               <a href="digitalcameras.php" class="btn btn-sm btn-info float-right">View more <i class="fas fa-angle-double-right"></i></a>
-            </div>
-         </div>
-      </div>
-      <div class="col-md-4">
-         <div class="card">
-            <img class="card-img-top" src="img/smartphone.jpg" alt="Card image cap">
-			
-            <div class="card-body">
-			<br>
-			<br>
-               <h5 class="card-title border-bottom pb-3">Smartphones</h5>
-               <p class="card-text">View more on our expert analysis of some of the best phones out there today.</p>
-			   <br>
-               <a href="Smartphones.php" class="btn btn-sm btn-info float-right">View more <i class="fas fa-angle-double-right"></i></a>
-            </div>
-         </div>
-      </div>
-      <div class="col-md-4">
-         <div class="card bg-light">
-            <img class="card-img-top" src="img/laptop.jpg" alt="Card image cap">
-            <div class="card-body">
-			<br>
-			<br>
-               <h5 class="card-title border-bottom pb-3">Laptops</h5>
-               <p class="card-text">Click to see more about the lpatop range that we cover so that you can find the perfect one for you.</p>
-			   <br>
-               <a href="Laptops.php" class="btn btn-sm btn-info float-right">View more <i class="fas fa-angle-double-right"></i></a>
+		
+               <h4 class="card-title">Dell XPS 13</h4>
+               <h1 class="card-text">€850</h1>
             </div>
          </div>
       </div>
    </div>
    <hr>
+   <div class="row">
+      <div class="col-md-6">
+         <div class="card border-primary flex-md-row mb-9 shadow-sm h-md-250">
+		 <img class="card-img-top" src="img/productimages/dellxps13.jpg" alt="Card image cap">
+            <div class="card-body d-flex flex-column align-items-start">
+               <strong class="d-inline-block mb-2 text-primary">Descriptions</strong>
+			   <br>
+               <h6 class="mb-0">
+               </h6>
+               <p class="card-text mb-auto">- Storage is good with 512 SSD<br>- Processor Intel Core i7-7200U (3.4GHz)Quad-core<br>- Display 15.6-inch FHD (1920 x 1080)<br>- Speakers
+Dolby Digital 3.0<br>- Battery
+41Wh, so respectable life</p>
+
+            </div>
+            <!--<img class="card-img-top" src="img/productimages/galaxy s10.jpg" alt="Card image cap">-->
+         </div>
+      </div>
   
 </div>
   
 <br>
 <br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+            <div class="well well-sm">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 text-center">
+                        <h1 class="rating-num">
+                            4.0</h1>
+                        <div class="rating">
+                            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star">
+                            </span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star">
+                            </span><span class="glyphicon glyphicon-star-empty"></span>
+                        </div>
+                        <div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="row rating-desc">
+                            <div class="col-xs-3 col-md-3 text-right">
+                                <b>Design</b>
+                            </div>
+                            <div class="col-xs-8 col-md-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 77%">
+                                        <span class="sr-only">40%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end 5 -->
+                            <div class="col-xs-3 col-md-3 text-right">
+                                <b>Specs</b>
+                            </div>
+                            <div class="col-xs-8 col-md-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 74%">
+                                        <span class="sr-only">60%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end 4 -->
+                            <div class="col-xs-3 col-md-3 text-right">
+                                <b>Battery</b>
+                            </div>
+                            <div class="col-xs-8 col-md-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20"
+                                        aria-valuemin="0" aria-valuemax="100" style="width:78%">
+                                        <span class="sr-only">40%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end 3 -->
+                            <div class="col-xs-3 col-md-3 text-right">
+                                <b>Features</b>
+                            </div>
+                            <div class="col-xs-8 col-md-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 81%">
+                                        <span class="sr-only">20%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end 2 -->
+                            <div class="col-xs-3 col-md-3 text-right">
+                                <b>Price</b>
+                            </div>
+                            <div class="col-xs-8 col-md-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 83%">
+                                        <span class="sr-only">15%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end 1 -->
+                        </div>
+                        <!-- end row -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a class="btn btn-outline-primary btn-sm" role="button" href="Laptops.php"><h4>Other Laptops</h4></a>	
 <br>
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+  
   <!-- contact -->
   <section id="section-contact" class="section appear clearfix">
     <div class="container">
@@ -184,9 +268,16 @@
         </ul>
       </div>
       <div class="row align-center copyright">
-   
+        <div class="col-sm-12">
+          <p>Copyright &copy; All rights reserved</p>
+        </div>
       </div>
-
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Vlava
         -->
         Designed by <a href="https://learnonline.gmit.ie/user/profile.php">Dylan Jacques</a>
       </div>

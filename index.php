@@ -83,8 +83,152 @@
     </div>
   </section>
   <!-- /about -->
+  
+  <hr></hr>
+
+<!-- /compare sample -->
+<section id="section-works" class="section appear clearfix">
+    <div class="container">
+
+      <div class="row mar-bot40">
+        <div class="col-md-offset-3 col-md-6">
+          <div class="section-header">
+            <h2 class="section-heading animated" data-animation="bounceInUp">Services</h2>
+            <p>Below you can view what types of devides we compare</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <nav id="filter" class="col-md-12 text-center">
+          <ul>
+            <li><a href="#" class="current btn btn-small" data-filter="*">All</a></li>
+            <li><a href="#" class="btn btn-small" data-filter=".webdesign">Smartphones</a></li>
+            <li><a href="#" class="btn btn-small" data-filter=".photography">Laptops</a></li>
+            <li><a href="#" class="btn btn-small" data-filter=".print">Cameras</a></li>
+          </ul>
+        </nav>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="portfolio-items isotopeWrapper clearfix" id="3">
+
+              <article class="col-md-4 isotopeItem webdesign">
+                <div class="portfolio-item">
+                  <img src="img/portfolio/iphone11.jpg" alt="">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">iphone11<br>9/10</br></a></h5>
+                      <a href="img/portfolio/iphone11.jpeg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem photography">
+                <div class="portfolio-item">
+                  <img src="img/portfolio/asuszenbook.png" alt="">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">Asus Zenbook<br>9/10</a></h5>
+                      <a href="img/portfolio/asuszenbook.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
 
 
+              <article class="col-md-4 isotopeItem photography">
+                <div class="portfolio-item">
+                  <img src="img/portfolio/dellxps13.jpg" alt="">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">DELLXPS13<br>8/10</a></h5>
+                      <a href="img/portfolio/dellxps13.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem print">
+                <div class="portfolio-item">
+                  <img src="img/portfolio/canoneosr.jpg" alt="">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">Canon EOS-R <br>7/10</a></h5>
+                      <a href="img/portfolio/canoneosr.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem photography">
+                <div class="portfolio-item">
+                  <img src="img/portfolio/googlepixelbookgo.jpg" alt="">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">google pixelbook-go <br>7/10</a></h5>
+                      <a href="img/portfolio/googlepixelbookgo.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem webdesign">
+                <div class="portfolio-item">
+                  <img src="img/portfolio/oneplus7t.jpg" alt="">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">oneplus7t<br> 8/10</a></h5>
+                      <a href="img/portfolio/oneplus7t.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem print">
+                <div class="portfolio-item">
+                  <img src="img/portfolio/alphadslra330.jpg" alt="">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">ALPHA DSLR A-330<br>10/10</a></h5>
+                      <a href="img/portfolio/alphadslra330.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem photography">
+                <div class="portfolio-item">
+                  <img src="img/portfolio/surfacebook7.jpg" alt="">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">surfacebook 7<br> 6/10</a></h5>
+                      <a href="img/portfolio/surfacebook7.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="col-md-4 isotopeItem print">
+                <div class="portfolio-item">
+                  <img src="img/portfolio/nikoncoolpixd600.jpg" alt="">
+                  <div class="portfolio-desc align-center">
+                    <div class="folio-info">
+                      <h5><a href="#">Nikon coolpix d-600<br>9/10</a></h5>
+                      <a href="img/portfolio/nikoncoolpixd600.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <br>
+  <br>
  
 
 
@@ -164,16 +308,9 @@
         </ul>
       </div>
       <div class="row align-center copyright">
-        <div class="col-sm-12">
-          <p>Copyright &copy; All rights reserved</p>
-        </div>
+   
       </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Vlava
+
         -->
         Designed by <a href="https://learnonline.gmit.ie/user/profile.php">Dylan Jacques</a>
       </div>

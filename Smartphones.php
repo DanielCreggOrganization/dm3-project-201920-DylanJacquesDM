@@ -6,6 +6,8 @@
   <meta charset="utf-8">
   <title>TeckCheck</title>
   <meta name="description" content="">
+
+  <link rel="stylesheet" href="css/boostrap 4.11.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="js/rs-plugin/css/settings.css" media="screen">
   <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen">
@@ -16,9 +18,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="skin/default.css">
 
-
 </head>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonym
 <body>
   <section id="header" class="appear"></section>
   <div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(5, 42, 62, 1);">
@@ -62,43 +62,63 @@
 <br>
    </h3>
    <div class="row">
-      <div class="col-md-4">
-         <div class="card">
-            <img class="card-img-top" src="img/digital camera.jpg" alt="Card image cap">
+     <div class="col-md-4">
+         <div class="card mb-4 border-dark">
+            <img class="card-img-top" src="img/productimages/galaxy s10.jpg" alt="Card image cap">
             <div class="card-body">
-			<br>
-			<br>
-               <h5 class="card-title border-bottom pb-3">Cameras</a></h5>
-               <p class="card-text">View a wide range of digital cameras and compare them to see what you like most.</p>
-			   <br>
-               <a href="digitalcameras.php" class="btn btn-sm btn-info float-right">View more <i class="fas fa-angle-double-right"></i></a>
+               <h5 class="card-title">Samsung Galaxy S10</h5>
+               <p class="card-text">Click here to view the rating</p>
+               <a href="galaxy.php" class="btn btn-dark btn-sm">Click Here</a>
             </div>
          </div>
       </div>
       <div class="col-md-4">
-         <div class="card">
-            <img class="card-img-top" src="img/smartphone.jpg" alt="Card image cap">
-			
+         <div class="card mb-4 border-dark">
+            <img class="card-img-top" src="img/productimages/huawei p30.jpg" alt="Card image cap">
             <div class="card-body">
-			<br>
-			<br>
-               <h5 class="card-title border-bottom pb-3">Smartphones</h5>
-               <p class="card-text">View more on our expert analysis of some of the best phones out there today.</p>
-			   <br>
-               <a href="Smartphones.php" class="btn btn-sm btn-info float-right">View more <i class="fas fa-angle-double-right"></i></a>
+               <h5 class="card-title">Huawei P30</h5>
+               <p class="card-text">Click here to view the rating</p>
+               <a href="huaweip2.php" class="btn btn-dark btn-sm">Click Here</a>
             </div>
          </div>
       </div>
-      <div class="col-md-4">
-         <div class="card bg-light">
-            <img class="card-img-top" src="img/laptop.jpg" alt="Card image cap">
+       <div class="col-md-4">
+         <div class="card mb-4 border-dark">
+            <img class="card-img-top" src="img/productimages/iphone11.jpg" alt="Card image cap">
             <div class="card-body">
-			<br>
-			<br>
-               <h5 class="card-title border-bottom pb-3">Laptops</h5>
-               <p class="card-text">Click to see more about the lpatop range that we cover so that you can find the perfect one for you.</p>
-			   <br>
-               <a href="Laptops.php" class="btn btn-sm btn-info float-right">View more <i class="fas fa-angle-double-right"></i></a>
+               <h5 class="card-title">Iphone 11</h5>
+               <p class="card-text">Click here to view the rating</p>
+               <a href="iphone.php" class="btn btn-dark btn-sm">Click Here</a>
+            </div>
+         </div>
+      </div>
+	   <div class="col-md-4">
+         <div class="card mb-4 border-dark">
+            <img class="card-img-top" src="img/productimages/oneplus7t.jpg" alt="Card image cap">
+            <div class="card-body">
+               <h5 class="card-title">One Plus 7T</h5>
+               <p class="card-text">Click here to view the rating</p>
+               <a href="oneplus7t.php" class="btn btn-dark btn-sm">Click Here</a>
+            </div>
+         </div>
+      </div>
+	   <div class="col-md-4">
+         <div class="card mb-4 border-dark">
+            <img class="card-img-top" src="img/productimages/RealmeX2Pro.jpg" alt="Card image cap">
+            <div class="card-body">
+               <h5 class="card-title">RealMe X2 Pro</h5>
+               <p class="card-text">Click here to view the rating</p>
+               <a href="RealmeX2Pro.php" class="btn btn-dark btn-sm">Click Here</a>
+            </div>
+         </div>
+      </div>
+	   <div class="col-md-4">
+         <div class="card mb-4 border-dark">
+            <img class="card-img-top" src="img/productimages/motorollag8plus.jpg" alt="Card image cap">
+            <div class="card-body">
+               <h5 class="card-title">Motorolla G8 Plus</h5>
+               <p class="card-text">Click here to view the rating</p>
+               <a href="motorolla.php" class="btn btn-dark btn-sm">Click Here</a>
             </div>
          </div>
       </div>
@@ -109,10 +129,7 @@
   
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
+  
   <!-- contact -->
   <section id="section-contact" class="section appear clearfix">
     <div class="container">
@@ -184,9 +201,16 @@
         </ul>
       </div>
       <div class="row align-center copyright">
-   
+        <div class="col-sm-12">
+          <p>Copyright &copy; All rights reserved</p>
+        </div>
       </div>
-
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Vlava
         -->
         Designed by <a href="https://learnonline.gmit.ie/user/profile.php">Dylan Jacques</a>
       </div>
