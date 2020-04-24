@@ -3521,6 +3521,7 @@ tbody.collapse.in {
   position: absolute;
   top: 100%;
   left: 0;
+  color: #fff;
   z-index: 1000;
   display: none;
   float: left;
@@ -6755,3 +6756,5 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.border-dark{border-color:#343a40!important}
